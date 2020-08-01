@@ -76,6 +76,7 @@ iframe {
 
 .ui.grid.segment {
     padding: 5rem 2rem;
+
 }
 
 .line {
@@ -90,7 +91,9 @@ iframe {
     padding: 0 !important;
 }
 
-
+#register{
+    border:none;
+}
 
 
 
