@@ -228,6 +228,7 @@ img.illustrate.small {
     /* 1:1 Aspect Ratio */
     position: relative;
     /* If you want text inside of it */
+    border: 3px solid #8080804f;
 }
 
 
@@ -327,6 +328,23 @@ img.illustrate.small {
 
 .btn.blue:active {
     border-bottom: 2px solid #165195;
+}
+
+.btn.orange {
+    background-color: orange;
+    border-bottom: 5px solid #dc8e00;
+}
+
+.btn.orange:active {
+    border-bottom: 2px solid #dc8e00;
+}
+
+.btn.black {
+    background-color: #212529cc;
+    border-bottom: 5px solid black;
+}
+.btn.black:active {
+    border-bottom: 2px solid #black;
 }
 
 .btn.red {
