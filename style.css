@@ -355,3 +355,7 @@ img.illustrate.small {
 .btn.red:active {
     border-bottom: 2px solid #c1370e;
 }
+
+.header_ai .link{
+    display:none;
+}
