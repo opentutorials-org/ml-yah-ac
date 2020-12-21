@@ -1,0 +1,17 @@
+name: action-airtable-worklog
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: submit work log
+      id: worklog
+      uses: opentutorials-org/action-airtable-worklog@master
+      with:
+        AIRTABLE_SECRET: ${{ secrets.AIRTABLE_SECRET }} 
+        AIRTABLE_BASE: ${{ secrets.AIRTABLE_BASE }} 
