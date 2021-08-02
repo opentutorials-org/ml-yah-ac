@@ -6,15 +6,35 @@
         body{
             background-image:url("images/baim-hanif-pYWuOMhtc6k-unsplash.jpg");
             background-size:cover;
+            background-position:center;
+            height:100vh;
+        }
+        .notice{
+            background-color:rgba(255,255,255,0.1);   
+            width:30rem; 
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align:center;
+            padding:2rem;
+            font-size:2.8rem;
+            font-weight:bold;
+            color:white;
+            
+        }
+        .notice *{
+            color:white;
+        }
+        .small{
+            font-size:1.5rem;
         }
     </style>
 </head>
 <body>
-<script>
-    window.onload = function(){
-        alert('졸업식은 2021년 8월 2일 저녁 9시에 시작됩니다. 잠시후에 다시 방문해주세요~');
-        history.back();
-    }
-</script>
+    <div class="notice">
+    <div class="small">졸업식은 9시부터 시작됩니다.</div>
+    <a href="https://us02web.zoom.us/j/5190136209" target="_blank">졸업식 바로가기</a>
+    </div>
 </body>
 </html>
